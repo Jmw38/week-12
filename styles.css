@@ -1,0 +1,53 @@
+/* Center the content */
+.container {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Add some spacing */
+  .team {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Style form inputs */
+  .form-group {
+    margin-bottom: 1rem;
+    background-color: grey;
+  }
+  
+  /* Style table */
+  .table {
+    margin-bottom: 2rem;
+  }
+  
+  /* Style table actions buttons */
+  .btn {
+    margin-right: 0.5rem;
+  }
+  
+  /* Update delete button style */
+  .delete-btn {
+    background-color: #dc3545;
+    border-color: #dc3545;
+  }
+  
+  .delete-btn:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+  }
+  
+  /* Update edit button style */
+  .edit-btn {
+    background-color: #ffc107;
+    border-color: #ffc107;
+  }
+  
+  .edit-btn:hover {
+    background-color: #e0a800;
+    border-color: #d39e00;
+  }
+
+  body {
+    background-color: grey;
+  }
+  

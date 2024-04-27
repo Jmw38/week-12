@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sports Teams CRUD</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+  <div class="container">
+    <h1 class="team">Sports Teams CRUD</h1>
+
+    <!-- Form to add new team -->
+    <form id="teamForm">
+      <div class="form-group">
+        <label for="teamName">Team Name</label>
+        <input type="text" class="form-control" id="teamName" required>
+      </div>
+      <div class="form-group">
+        <label for="teamSport">Sport</label>
+        <input type="text" class="form-control" id="teamSport" required>
+      </div>
+      <div class="form-group">
+        <label for="actions">Country</label>
+        <input type="text" class="form-control" id="action" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Add Team</button>
+      <button type="update" class="btn btn-secondary">Update Team</button>
+    </form>
+
+    <hr>
+
+    <!-- Table to display teams -->
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Team Name</th>
+          <th>Sport</th>
+          <th>Country</th>
+        </tr>
+      </thead>
+      <tbody id="teamList"></tbody>
+    </table>
+    <button type="delet" class="btn btn-danger">Delete Team</button>
+  </div>
+  
+
+  <script src="node_modules/jquery/dist/jquery.js"></script>
+  <script src="app2.js"></script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+{
+  "teams": [
+    { "id": 1, "name": "Real Madrid", "sport": "Football", "country": "Spain" },
+    { "id": 2, "name": "Golden State Warriors", "sport": "Basketball", "country": "USA" }
+  ]
+}
